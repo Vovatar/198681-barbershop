@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Владимир Чуватин](https://up.htmlacademy.ru/htmlcss/13/user/198681).
+* Наставник [Денис Верхотуров](https://up.htmlacademy.ru/htmlcss/13/user/56756).
 
 ---
 
