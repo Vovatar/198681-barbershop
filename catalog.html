@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп «Бородинский»</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Barbershop</a>
+            </li>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#" class="active-page">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1>Средства для ухода</h1>
+      <ul class="breadcrumbs">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Магазин</a></li>
+        <li><a href="#">Средства для ухода</a></li>
+      </ul>
+      <div class="filters">
+        <form method="post" action="#">
+        <div class="manufacturer">
+          <h2>ПРОИЗВОДИТЕЛИ:</h2>
+          <input name="filters" id="baxter" type="checkbox" checked value="BAXTER OF CALIFORNIA">
+          <label for="baxter">BAXTER OF CALIFORNIA</label><br>
+          <input name="filters" id="batty" type="checkbox" value="MR NATTY">
+          <label for="natty">MR NATTY</label><br>
+          <input name="filters" id="suavecito" type="checkbox" checked value="SUAVECITO">
+          <label for="suavecito">SUAVECITO</label><br>
+          <input name="filters" id="malin" type="checkbox" value="MALIN+GOETZ">
+          <label for="malin">MALIN+GOETZ</label><br>
+          <input name="filters" id="murray" type="checkbox" value="MURRAY`S">
+          <label for="murray">MURRAY`S</label><br>
+          <input name="filters" id="crew" type="checkbox" checked value="AMERICAN CREW">
+          <label for="crew">AMERICAN CREW</label>        
+        </div>
+        <div class="groups">
+          <h2>ГРУППЫ ТОВАРОВ:</h2>
+          <input name="filters" id="shave" type="radio" value="БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ">
+          <label for="shave">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label><br>
+          <input name="filters" name="groups" id="care" type="radio" value="СРЕДСТВА ДЛЯ УХОДА">
+          <label for="care">СРЕДСТВА ДЛЯ УХОДА</label><br>
+          <input name="filters" id="accessories" type="radio" value="АКССЕКСУАРЫ">
+          <label for="accessories">АКССЕКСУАРЫ</label>
+        </div>
+        <input class="btn" type="submit" value="Показать">
+        </form>
+      </div>
+      <article class="goods">
+        <img src="#" width="220px" height="165px" alt="Товар">
+        <p class="goods-name">Набор для путешествий "BAXTER OF CALIFORNIA"</p>
+        <div class="goods-price">2 900 РУБ.</div>
+        <a class="btn" href="#">КУПИТЬ</a>   
+      </article>
+      <article class="goods">
+        <img src="#" width="220px" height="165px" alt="Товар">
+        <p class="goods-name">Увлажняющий кондициионер "BAXTER OF CALIFORNIA"</p>
+        <div class="goods-price"> 750 РУБ.</div>
+        <a class="btn" href="#">КУПИТЬ</a>   
+      </article>
+      <article class="goods">
+        <img src="#" width="220px" height="165px" alt="Товар">
+        <p class="goods-name">Глина для укладки волос "AMERICAN CREW"</p>
+        <div class="goods-price"> 500 РУБ.</div>
+        <a class="btn" href="#">КУПИТЬ</a>   
+      </article>
+      <article class="goods">
+        <img src="#" width="220px" height="165px" alt="Товар">
+        <p class="goods-name">Гель для волос "AMERICAN CREW"</p>
+        <div class="goods-price"> 300 РУБ.</div>
+        <a class="btn" href="#">КУПИТЬ</a>   
+      </article>
+      <article class="goods">
+        <img src="#" width="220px" height="165px" alt="Товар">
+        <p class="goods-name">Набор для бритья "BAXTER OF CALIFORNIA"</p>
+        <div class="goods-price"> 3 900 РУБ.</div>
+        <a class="btn" href="#">КУПИТЬ</a>   
+      </article>   
+      <a class="btn" href="#">1</a>
+      <a class="btn" href="#">2</a>
+      <a class="btn" href="#">3</a>
+      <a class="btn" href="#">4</a>
+      
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>          
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
