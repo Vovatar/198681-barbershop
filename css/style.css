@@ -1,11 +1,5 @@
 body {
-  
-}
-
-h1 {
-  
-}
-
-h2 {
-  
+  font-size: 14px;
+  font-family: "PT Sans";
+  color: black;
 }
