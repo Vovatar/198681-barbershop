@@ -3,16 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header clearfix">
       <div class="container">
         <nav class="main-navigation">
           <ul>
-            <li>
-              <a href="#">Barbershop</a>
-            </li>
+            <a href="#"><img src="img/barbershop.png" alt="Barbershop"></a>
             <li>
               <a href="#">Информация</a>
             </li>
@@ -35,14 +33,14 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="container">
       <h1>Средства для ухода</h1>
       <ul class="breadcrumbs">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Магазин</a></li>
         <li>Средства для ухода</li>
       </ul>
-      <div class="filters">
+      <div class="filters clearfix">
         <form method="post" action="#">
         <fieldset class="manufacturer">
           <legend>ПРОИЗВОДИТЕЛИ:</legend>
@@ -71,54 +69,56 @@
         <input class="btn" type="submit" value="Показать">
         </form>
       </div>
+      <div class="goods-field clearfix">
       <article class="goods">
-        <a href="#"><img src="#" width="220" height="165" alt="Товар"></a>
+        <a href="#"><img src="img/goods_1.jpg" width="220" height="165" alt="Товар"></a>
         <a href="#"><h3>Набор для путешествий "BAXTER OF CALIFORNIA"</h3></a>
         <div class="goods-price">
-          <p>2 900 РУБ.</p>
-          <a class="btn" href="#">КУПИТЬ</a>
+          <p class="price">2 900 РУБ.</p>
+          <a class="btn buy" href="#">КУПИТЬ</a>
         </div>
       </article>
       <article class="goods">
-        <a href="#"><img src="#" width="220" height="165" alt="Товар"></a>
+        <a href="#"><img src="img/goods_2.jpg" width="220" height="165" alt="Товар"></a>
         <a href="#"><h3>Увлажняющий кондициионер "BAXTER OF CALIFORNIA"</h3></a>
         <div class="goods-price">
-          <p>750 РУБ.</p>
-          <a class="btn" href="#">КУПИТЬ</a>
+          <p class="price">750 РУБ.</p>
+          <a class="btn buy" href="#">КУПИТЬ</a>
         </div>
       </article>
       <article class="goods">
-        <a href="#"><img src="#" width="220" height="165" alt="Товар"></a>
+        <a href="#"><img src="img/goods_3.jpg" width="220" height="165" alt="Товар"></a>
         <a href="#"><h3>Гель для волос "SUAVECITO"</h3></a>
         <div class="goods-price">
-          <p>290 РУБ.</p>
-          <a class="btn" href="#">КУПИТЬ</a>
+          <p class="price">290 РУБ.</p>
+          <a class="btn buy" href="#">КУПИТЬ</a>
         </div>
       </article>
       <article class="goods">
-        <a href="#"><img src="#" width="220" height="165" alt="Товар"></a>
+        <a href="#"><img src="img/goods_4.jpg" width="220" height="165" alt="Товар"></a>
         <a href="#"><h3>Глина для укладки волос "AMERICAN CREW"</h3></a>
         <div class="goods-price">
-          <p>500 РУБ.</p>
-          <a class="btn" href="#">КУПИТЬ</a>
+          <p class="price">500 РУБ.</p>
+          <a class="btn buy" href="#">КУПИТЬ</a>
         </div>
       </article>
       <article class="goods">
-        <a href="#"><img src="#" width="220" height="165" alt="Товар"></a>
+        <a href="#"><img src="img/goods_5.jpg" width="220" height="165" alt="Товар"></a>
         <a href="#"><h3>Гель для волос "AMERICAN CREW"</h3></a>
         <div class="goods-price">
-          <p>300 РУБ.</p>
-          <a class="btn" href="#">КУПИТЬ</a>
+          <p class="price">300 РУБ.</p>
+          <a class="btn buy" href="#">КУПИТЬ</a>
         </div>
       </article>
       <article class="goods">
-        <a href="#"><img src="#" width="220" height="165" alt="Товар"></a>
+        <a href="#"><img src="img/goods_6.jpg" width="220" height="165" alt="Товар"></a>
         <a href="#"><h3>Набор для бритья "BAXTER OF CALIFORNIA"</h3></a>
         <div class="goods-price">
-          <p>3 900 РУБ.</p>
-          <a class="btn" href="#">КУПИТЬ</a>
+          <p class="price">3 900 РУБ.</p>
+          <a class="btn buy" href="#">КУПИТЬ</a>
         </div>
       </article>
+      </div>
       <div class="page-select">
         <a class="btn" href="#">1</a>
         <a class="btn" href="#">2</a>
@@ -127,7 +127,7 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>

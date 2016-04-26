@@ -1,5 +1,197 @@
+html,
 body {
+  min-width: 1122px;
   font-size: 14px;
   font-family: "PT Sans";
-  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.main-navigation {
+  width: 780px;
+  float: left;
+  min-height: 70px;
+}
+
+.user-block {
+  width: 140px;
+  float: right;
+  min-height: 70px;
+}
+
+.index-logo {
+  width: 368px;
+  min-height: 204px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
+
+.filters {
+  float: left;
+  width: 230px;
+  min-height: 600px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 24px;
+  margin-right: 0;
+}
+
+.manufacturer {
+  min-height: 286px;
+}
+
+.groups {
+  min-height: 165px;
+  margin-bottom: 50px; 
+}
+
+.goods {
+  float: left;
+  width: 220px;
+  min-height: 290px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+} 
+
+.goods:nth-child(3n) {
+  margin-right: 0;
+}
+.goods-field {
+  float: right;
+  width: 700px;
+}
+
+.page-select {
+  clear:both;
+  padding-left: 240px;
+  margin-top: 45px;
+}
+
+.main-goods {
+  display: inline-block;
+}
+
+.photo {
+  float: left;
+  width: 460px;
+  font-size: 0;
+  margin-right: 90px;
+}
+
+.photo-second {
+  width: 140px;
+  margin-right: 20px;
+}
+
+.photo-second:last-child {
+  margin-right: 0;
+}
+
+.item-panel {
+  float: right;
+  width: 380px;
+}
+
+.item-availability {
+  float: left;
+}
+.item-code {
+  float: right;
+  margin-bottom: 40px;
+}
+
+.item-description {
+  clear: both;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+.goods-price {
+  width: 188px;
+  height: 43px;
+  display: inline-block;
+}
+
+.price {
+  width: 110px;
+  float: left;
+}
+
+.btn.buy {
+  width: 78px;
+  float: right;
 }

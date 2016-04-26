@@ -3,16 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Барбершоп «Бородинский»</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header clearfix">
       <div class="container">
         <nav class="main-navigation">
           <ul>
-            <li>
-              <a href="#">Barbershop</a>
-            </li>
+            <a href="#"><img src="img/barbershop.png" alt="Barbershop"></a>
             <li>
               <a href="#">Информация</a>
             </li>
@@ -35,7 +33,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="container clearfix">
       <h1>НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA"</h1>
       <ul class="breadcrumbs">
         <li><a href="#">Главная</a></li>
@@ -43,31 +41,38 @@
         <li><a href="#">Средства для ухода</a></li>
         <li><a href="#">НАБОР ДЛЯ ПУТЕШЕСТВИЙ "BAXTER OF CALIFORNIA</a></li>
       </ul>
-      <div class="photo">
-        <img class="photo-main" src="#" width="460" height="498" alt="Фото товара">
-        <img class="photo-second" src="#" width="140" height="149" alt="Фото товара">
-        <img class="photo-second" src="#" width="140" height="149" alt="Фото товара">
-        <img class="photo-second" src="#" width="140" height="149" alt="Фото товара">
+      <div class="main-goods clearfix">
+        <div class="photo">
+          <img class="photo-main" src="img/item-big.jpg" width="460" height="498" alt="Фото товара">
+          <img class="photo-second" src="img/item_small_1.jpg" width="140" height="149" alt="Фото товара">
+          <img class="photo-second" src="img/item_small_2.jpg" width="140" height="149" alt="Фото товара">
+          <img class="photo-second" src="img/item_small_3.jpg" width="140" height="149" alt="Фото товара">
+        </div>
+        <div class="item-panel">
+          <div class="item-specification">
+            <div class="item-availability">ЕСТЬ В НАЛИЧИИ</div>
+            <div class="item-code">Артикул: DEXTER-AE</div>
+            <p class="item-description">TRAVEL KIT - НЕОБХОДИМЫЙ АКСЕССУАР ВО ВРЕМЯ ЛЮБОГО ПУТЕШЕСТВИЯ. В АККУРАТНОЙ КОЖАНОЙ СУМКЕ НАХОДИТСЯ ВСЕ ЧТО НУЖНО ДЛЯ БРИТЬСЯ И УХОДА ЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ ИЛИ ОТДЫХА: СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ ДЛЯ БРИТЬЯ, КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ. НАБОР ТАКЖЕ МОЖЕТ СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ.</p>
+            <div class="goods-price">
+              <p class="price">2 900 РУБ.</p>
+              <a class="btn buy" href="">КУПИТЬ</a>  
+            </div>
+          </div>
+          <div class="item-content">
+            <ul class="item-description">
+              <h2>В набор входят:</h2>
+              <li class="item-set">СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
+              <li class="item-set">УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
+              <li class="item-set">КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)</li>
+              <li class="item-set">КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)</li>
+              <li class="item-set">УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="item-specification">
-        <p class="item-availability">ЕСТЬ В НАЛИЧИИ</p>
-        <p class="item-code">Артикул: DEXTER-AE</p>
-        <p class="item-description">TRAVEL KIT - НЕОБХОДИМЫЙ АКСЕССУАР ВО ВРЕМЯ ЛЮБОГО ПУТЕШЕСТВИЯ. В АККУРАТНОЙ КОЖАНОЙ СУМКЕ НАХОДИТСЯ ВСЕ ЧТО НУЖНО ДЛЯ БРИТЬСЯ И УХОДА ЗА КОЖЕЙ ВО ВРЕМЯ РАБОЧЕЙ ПОЕЗДКИ ИЛИ ОТДЫХА: СРЕДСТВО ДЛЯ УМЫВАНИЯ, УВЛАЖНЯЮЩИЙ КРЕМ, КРЕМ ДЛЯ БРИТЬЯ, КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ. НАБОР ТАКЖЕ МОЖЕТ СТАТЬ ОТЛИЧНЫМ ПОДАРКОМ.</p>
-        <p class="item-price">2 900 РУБ.</p>
-        <a class="btn">КУПИТЬ</a>  
-      </div>
-      <div class="item-content">
-        <ul class="item-description">
-          <li class="item-set">СРЕДСТВО ДЛЯ УМЫВАНИЯ (50 МЛ)</li>
-          <li class="item-set">УВЛАЖНЯЮЩИЙ КРЕМ (50 МЛ)</li>
-          <li class="item-set">КРЕМ ДЛЯ БРИТЬЯ (50 МЛ)</li>
-          <li class="item-set">КРЕМ ПОСЛЕ БРИТЬЯ, ШАМПУНЬ (50 МЛ)</li>
-          <li class="item-set">УДОБНАЯ КОЖАНАЯ КОСМЕТИЧКА</li>
-        </ul>
-      </div>         
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
